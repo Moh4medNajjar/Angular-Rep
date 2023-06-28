@@ -1,0 +1,53 @@
+.btn {
+  border: 1px solid #CB0C9F;
+  color: #CB0C9F;
+  font-weight: 550;
+  font-size:smaller
+}
+button:hover{
+  box-shadow: 0 0 1px 2px #CB0C9F inset;
+}
+
+input:focus {
+  border-color: #CB0C9F!important;
+  box-shadow: 0px 1px 2px 1px #e8abda;
+}
+
+.left {
+  color: #67748E;
+}
+
+.fa-icon {
+  cursor: pointer;
+}
+
+.signin {
+  font-size: 15px;
+}
+
+input {
+  min-width: 150px;
+}
+
+@media (max-width: 900px) {
+  .Admin {
+    display: none;
+  }
+
+}
+
+@media (max-width: 507px) {
+  .search {
+    display: none;
+  }
+
+}
+
+li.active .box {
+  background-color: #CB0C9F;
+}
+
+li.active .box fa-icon {
+  color: #CB0C9F;
+}
+

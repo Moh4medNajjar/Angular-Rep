@@ -1,0 +1,10 @@
+.side-nav{
+  min-height: calc(100vh - 70px);
+  background-color:#F8F9FA;
+  color:#344767;
+  flex: 0 0 auto; 
+}
+
+main{
+  padding-right:20px;
+}

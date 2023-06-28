@@ -1,0 +1,35 @@
+<div class="container-fluid " style="background-color: #F8F9FA;">
+  <div class="row d-flex align-items-center">
+    <div class="col-3 Admin">
+      <h4 style="color:#344767"><span style="white-space: nowrap;font-weight:650; font-size: 15px;"><span style="font-weight:400">Pages / </span>Dashboard</span></h4>
+    </div>
+
+    <div class="col d-flex align-items-center justify-content-end">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="search">
+        <nav class="navbar">
+          <form class="form-inline d-flex">
+            <div class="input-group-prepend d-flex align-items-center mx-2">
+              <fa-icon [icon]="faSearch" style="color:#67748E;cursor:pointer"></fa-icon>
+            </div>
+            <input class="form-control mr-sm-2 mx-2" type="search" placeholder="Can't find something?" aria-label="Search">
+            <button class="btn my-2 my-sm-0" type="submit">SEARCH</button>
+          </form>
+        </nav>
+      </div>
+      <div class="signin mx-3 d-flex">
+        <fa-icon [icon]="faUser" class=" mx-1" style="color:#67748E;cursor:pointer"></fa-icon>
+        <a href="#" class="text-decoration-none" style="color:#67748E;cursor:pointer; font-weight:650">
+          <span style="white-space: nowrap;font-weight: 500;">Sign In</span>
+        </a>
+      </div>
+      <div class="icons d-flex">
+        <fa-icon [icon]="faGear" style="color:#67748E;cursor:pointer" class="mx-1"></fa-icon>
+        <fa-icon [icon]="faBell" style="color:#67748E;cursor:pointer" class="mx-1"></fa-icon>
+      </div>
+    </div>
+
+  </div>
+</div>
